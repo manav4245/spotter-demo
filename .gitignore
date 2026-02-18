@@ -22,7 +22,9 @@ media/
 
 # Environment variables
 .env
-.env.*
+.env.local
+.env.*.local
+!.env.production
 !.env.example
 
 # Node / Frontend
